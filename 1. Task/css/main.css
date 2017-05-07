@@ -1,0 +1,276 @@
+/****************************************
+                GENERAL
+****************************************/
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.container1 {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#wrapper {
+	max-width: 1600px;
+	margin: 0 auto;
+	padding: 0 5%;
+}
+
+#wrapper h1 {	
+	text-align: center;
+	font-size: 1.25em;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+h3 {
+	margin: 0;
+}
+
+
+/****************************************
+                HEADING
+****************************************/
+
+header {
+	float: left;
+	margin: 0 0 30px 0;
+	padding: 15px 0 0 0;
+	width: 100%;
+
+}
+
+header a img {
+	width: 100px;
+	padding: 0 15px 10px 20px;
+	float: left;
+}
+
+#logo {
+	text-align: center;
+	margin: 0;
+}
+
+h1 {
+	font-family: 'Changa One', sans-serif;
+	margin: 0;
+	padding: 15px 0;
+	font-size: 1.75em;
+	font-weight: normal;
+	line-height: 0.8em;
+}
+
+h2 {
+	font-size: 0.9em;
+	margin: -5px 0 0;
+	font-weight: normal;
+}
+
+
+
+/****************************************
+                NAVIGATION
+****************************************/
+
+nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	font-weight: 800;
+	padding: 15px 10px;
+}
+
+
+
+/****************************************
+                FOOTER
+****************************************/
+
+footer {
+	font-size: 0.75em;
+	text-align: center;
+	clear: both;
+	padding-top: 50px;
+	color: #ccc;	
+}
+
+.social-icon {
+	width: 20px;
+	height: 20px;
+	margin: 0 5px;
+}
+
+
+
+/****************************************
+              PAGE: MENU
+****************************************/
+
+#menu {
+	height: 750px;
+	margin: 20px 0;
+	padding: 0;
+	list-style: none;
+}
+
+#menu li a {
+	float: left;
+	width: 80%;
+	margin: 10%;
+	color: #999;
+}
+
+#menu li p {
+	float: left;
+	margin: 2.5%;
+	padding: 1%;
+	font-size: 1.5em;
+	font-family: 'Changa One', sans-serif;
+	background-color: yellow;
+	color: #666666;
+	clear: right;
+	border: 1px solid #000;
+}
+
+
+/****************************************
+              PAGE: CONTACT
+****************************************/
+
+.contact-info {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 0.9em;
+}
+
+.contact-info a {
+	display: block;
+	min-height: 20px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding: 0 0 0 30px;
+	margin: 0 0 10px;
+}
+
+.contact-info li.phone a {
+	background-image: url('../img/phone.png');
+}
+.contact-info li.mail a {
+	background-image: url('../img/mail.png');
+}
+.contact-info li.twitter a {
+	background-image: url('../img/twitter.png');
+}
+
+
+
+/****************************************
+                COLORS
+****************************************/
+
+body {
+	color: #999;
+}
+
+header {
+	background-color: #6ab47b;
+	border-color: #599a68;
+}
+
+#menu {	
+    background-image: url("../img/back.jpg");
+	background-size: 50%;
+}
+
+#wrapper h1 {
+	color: #000;
+}
+
+h1, h2 {
+	color: #fff;
+}
+
+a {
+	color: #6ab47b;
+}
+
+nav {
+	background-color: #599a68;
+}
+nav a, nav a:visited {
+	color: #fff;
+}
+nav a.selected, nav a:hover {
+	color: #32673f;
+}
+
+#menu li p.topic {	
+	color: #000;
+	background-color: #ff9;
+}
+
+
+
+/****************************************
+                BUTTON
+****************************************/
+
+.button {
+    height: 32px;
+    background: #ff3333;
+    border: 0;
+    color:#ffffff;
+    font-weight: bold;
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/****************************************
+            	NEWS
+****************************************/
+
+#news {
+    padding: 10px;
+    background: #599a68;
+}
+
+#news h1 {
+     color:#fff;
+     float: left;
+	 font-size: 1em;
+}
+
+#news form {
+     float: left;
+     margin-top: 5px;
+	 margin-right: 10px;
+}
+
+#news input[type="email"] {
+     padding: 2px 5px 2px 5px;
+     height: 25px;
+     width: 160px;
+}

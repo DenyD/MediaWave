@@ -1,0 +1,159 @@
+@media screen and (min-width: 480px) {
+	
+/****************************************
+            TWO COLUMN LAYOUT
+****************************************/
+
+	#primary {
+		width: 50%;
+		float: left;
+	}
+
+	#secondary {
+		width: 40%;
+		float: right;
+	}
+
+
+
+@media screen and (min-width: 660px) {
+
+/****************************************
+            	HEADER
+****************************************/
+
+	nav {
+		background: none;
+		float: right;
+		font-size: 1.5em;
+		margin-right: 5%;
+		text-align: right;
+		width: 45%;
+	}
+
+	#logo {
+		float: left;
+		margin-left: 5%;
+		text-align: left;
+		width: 45%;
+	}
+
+	h1 {
+		font-size: 2.5em;
+	}
+
+	h2 {
+		font-size: 1.25em;
+		margin-bottom: 20px;
+	}
+
+	#wrapper h1 {		
+		font-size: 2em;
+	}
+
+	header {
+		border-bottom: 5px solid #599a68;
+		margin-bottom: 60px;
+	}
+	#menu {
+	height: 1000px;
+	margin: 20px 0;
+	}
+
+	#menu li a {
+		width: 35%;
+		margin: 2%;
+	}
+
+	#menu li p {
+		float: right;
+		margin: 2%;
+		font-size: 0.9em;
+	}
+
+
+
+	/****************************************
+                BUTTON
+	****************************************/
+
+	.button {
+		height: 38px;
+		background: #ff3333;
+		border: 0;
+		color:#ffffff;
+		font-weight: bold;
+		margin: 0;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+
+
+	/****************************************
+            	NEWS
+	****************************************/
+
+	#news {
+		margin-top: 20px;
+		padding: 10px;
+		color:#ffffff;
+		background: #599a68;
+	}
+
+	#news h1 {
+		float: left;
+	 	font-size: 1.25em;
+	}
+
+	#news form {
+		float: left;
+		margin-top: 5px;
+	}
+
+	#news input[type="email"] {
+		padding: 4px 10px 4px 10px;
+		height: 25px;
+		width: 180px;
+	}
+}
+
+
+
+@media screen and (min-width: 960px) {
+
+/****************************************
+            	HEADER
+****************************************/
+#menu li a {
+		width: 35%;
+		margin: 2%;
+	}
+
+	#menu li p {
+		margin: 2%;
+		font-size: 1.25em;
+	}
+	
+	#news form {
+		float: right;
+	}
+}
+
+
+
+@media screen and (min-width: 1450px) {
+
+/****************************************
+            	HEADER
+****************************************/
+#menu li a {
+		width: 40%;
+		margin: 2%;
+	}
+
+	#menu li p {
+		margin: 2%;
+		font-size: 1.85em;
+	}
+}
